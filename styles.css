@@ -1,5 +1,56 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    font-size: 12pt;
+    margin: 15pt; 
+    background-color: #f4f4f4;
+    color: #333; 
+}
+
+
+h1 {
+    font-size: 24pt;
+    color: #0066cc; 
+}
+
+h2 {
+    font-size: 20pt;
+    color: #009900; 
+}
+
+h3 {
+    font-size: 18pt;
+    color: #cc0000;
+}
+
+
+p {
+    font-size: 14pt;
+    color: #666; 
+}
+
+
+a {
+    text-decoration: none;
+    color: #0066cc; 
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff9900; 
+}
+
+a:active {
+    color: #cc0000; 
+}
+
+a:visited {
+    color: #663399;
+}
+
+table {
+    width: 100%;
+}
+
+td > div {
+    padding: 10px;
 }
