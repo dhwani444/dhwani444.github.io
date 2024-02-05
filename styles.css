@@ -1,27 +1,65 @@
-.text-container {
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    margin: 15pt; 
     background-color: rgb(225, 150, 191);
-    color: rgb(225, 150, 191);
-    padding: 15pt;
+    color: rgb(225, 150, 191); 
 }
 
-.links-container {
-    background-color: rgb(225, 150, 191);
-    color: rgb(225, 150, 191);
-    padding: 15pt;
+
+h1 {
+    font-size: 24pt;
+    color: blue; 
 }
 
-.links-container a {
-    color: blue;
+h2 {
+    font-size: 20pt;
+    color: green; 
 }
 
-.links-container a:hover {
-    color: orange;
-}
-
-.links-container a:active {
+h3 {
+    font-size: 18pt;
     color: red;
 }
 
-.links-container a:visited {
+ol {
+    font-size: 14pt;
+    color: white
+}
+
+ul {
+    font-size: 14pt;
+    color: white
+}
+
+p {
+    font-size: 14pt;
+    color: white; 
+}
+
+
+a {
+    text-decoration: none;
+    color: blue; 
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange; 
+}
+
+a:active {
+    color: red; 
+}
+
+a:visited {
     color: purple;
+}
+
+table {
+    width: 100%;
+}
+
+td > div {
+    padding: 10px;
 }
