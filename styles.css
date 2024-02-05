@@ -2,49 +2,49 @@ body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
     margin: 15pt; 
-    background-color: #f4f4f4;
+    background-color: lightpink;
     color: #333; 
 }
 
 
 h1 {
     font-size: 24pt;
-    color: #0066cc; 
+    color: blue; 
 }
 
 h2 {
     font-size: 20pt;
-    color: #009900; 
+    color: green; 
 }
 
 h3 {
     font-size: 18pt;
-    color: #cc0000;
+    color: red;
 }
 
 
 p {
     font-size: 14pt;
-    color: #666; 
+    color: gray; 
 }
 
 
 a {
     text-decoration: none;
-    color: #0066cc; 
+    color: blue; 
 }
 
 a:hover {
     text-decoration: underline;
-    color: #ff9900; 
+    color: orange; 
 }
 
 a:active {
-    color: #cc0000; 
+    color: red; 
 }
 
 a:visited {
-    color: #663399;
+    color: purple;
 }
 
 table {
