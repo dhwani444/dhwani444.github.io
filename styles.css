@@ -6,7 +6,6 @@ body {
     color: rgb(225, 150, 191); 
 }
 
-
 h1 {
     font-size: 24pt;
     color: blue; 
@@ -24,19 +23,19 @@ h3 {
 
 ol {
     font-size: 14pt;
-    color: white
+    color: white;
 }
 
 ul {
     font-size: 14pt;
-    color: white
+    color: white;
+    padding: 0;
 }
 
 p {
     font-size: 14pt;
     color: white; 
 }
-
 
 a {
     text-decoration: none;
@@ -62,4 +61,12 @@ table {
 
 td > div {
     padding: 10px;
+}
+
+
+ul li, ol li {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; 
 }
