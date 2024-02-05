@@ -22,10 +22,14 @@ h3 {
     color: red;
 }
 
+ol {
+    font-size: 14pt;
+    color: white
+}
 
 p {
     font-size: 14pt;
-    color: gray; 
+    color: white; 
 }
 
 
