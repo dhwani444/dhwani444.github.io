@@ -1,7 +1,6 @@
 
 // function for asking user for name
 function promptForName() {
-  
   var userName = prompt("Please enter your name:");
   var outputElement = document.getElementById("output");
   // acknowledgement with personalized name
