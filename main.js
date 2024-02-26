@@ -6,7 +6,7 @@ function promptForName() {
 
 function enlargeImage() {
   var imageElement = document.getElementById("myImage");
-  imageElement.style.width = "300px"; 
+  imageElement.style.width = "100%"; 
 }
 
 function createNavigationMenu() {
