@@ -6,7 +6,7 @@ function promptForName() {
 
 function enlargeImage() {
   var imageElement = document.getElementById("myImage");
-  imageElement.style.width = "300px"; 
+  imageElement.style.width = "100px"; 
 }
 
 function createNavigationMenu() {
@@ -14,7 +14,7 @@ function createNavigationMenu() {
 
   for (var i = 0; i < navItems.length; i++) {
       navItems[i].addEventListener("mouseover", function () {
-          this.style.backgroundColor = "yellow";
+          this.style.backgroundColor = "purple";
       });
 
       navItems[i].addEventListener("mouseout", function () {
