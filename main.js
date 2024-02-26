@@ -6,6 +6,7 @@ function promptForName() {
   var outputElement = document.getElementById("output");
   // acknowledgement with personalized name
   outputElement.innerHTML = "Hello, " + userName + "!";
+  var outputElemet = document.getElementById("nameAcknowledgement");
 
 }
 

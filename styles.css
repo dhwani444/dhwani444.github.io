@@ -6,6 +6,10 @@
     height: auto; 
 }
 
+/* referencing nameAcknowledgement tag from JS */
+#nameAcknowledgement {
+    color: greenyellow;
+}
 
 body {
     font-family: Arial, sans-serif;
