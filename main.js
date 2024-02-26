@@ -6,10 +6,7 @@ function promptForName() {
   var outputElement = document.getElementById("output");
   // acknowledgement with personalized name
   outputElement.innerHTML = "Hello, " + userName + "!";
-  // referencing nameAcknowledgement element
-  var nameAcknowledgementElement = document.getElementById("nameAcknowledgement");
-  // setting the color to black
-  nameAcknowledgementElement.style.color = "black";
+  outputElement.style.color = "black";
 
 }
 
