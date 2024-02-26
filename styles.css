@@ -1,8 +1,9 @@
 
+/* referencing myImage tag from JS */
 #myImage {
+    /* setting height and width of image*/
     width: 100px;
     height: auto; 
-
 }
 
 
