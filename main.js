@@ -4,13 +4,17 @@ function promptForName() {
   outputElement.innerHTML = "Hello, " + userName + "!";
 }
 
-function enlargeImage() {
+function toggleImageSize() {
   var imageElement = document.getElementById("myImage");
+  var initialWidth = 100; 
+  var enlargedWidth = 300; 
+
   var currentWidth = parseInt(window.getComputedStyle(imageElement).width);
-  var newWidth = currentWidth * 2;
+  var newWidth = currentWidth === initialWidth ? enlargedWidth : initialWidth;
 
   imageElement.style.width = newWidth + "px";
 }
+
 
 function createNavigationMenu() {
   var navItems = document.getElementsByClassName("nav-item");
@@ -27,6 +31,7 @@ function createNavigationMenu() {
 }
 
 document.getElementById("nameButton").addEventListener("click", promptForName);
-document.getElementById("myImage").addEventListener("click", enlargeImage);
+document.getElementById("myImage").addEventListener("click", toggleImageSize);
+
 
 createNavigationMenu();
