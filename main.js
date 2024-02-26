@@ -6,13 +6,9 @@ function promptForName() {
 
 function toggleImageSize() {
   var imageElement = document.getElementById("myImage");
-  var initialWidth = 100; 
   var enlargedWidth = 300; 
 
-  var currentWidth = parseInt(window.getComputedStyle(imageElement).width);
-  var newWidth = currentWidth === initialWidth ? enlargedWidth : initialWidth;
-
-  imageElement.style.width = newWidth + "px";
+  imageElement.style.width = enlargedWidth + "px";
 }
 
 
