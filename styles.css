@@ -71,3 +71,8 @@ ul li, ol li {
     vertical-align: top;
     margin-bottom: 10px; 
 }
+
+#myImage {
+    width: 100px; 
+    height: auto; 
+}
