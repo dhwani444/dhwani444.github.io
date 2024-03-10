@@ -1,3 +1,21 @@
+function submitForm() {
+  // Retrieve form data
+  var fullName = document.getElementById("fullName").value;
+  var email = document.getElementById("email").value;
+  var gender = document.querySelector('input[name="gender"]:checked') ? document.querySelector('input[name="gender"]:checked').value : "";
+  var interests = Array.from(document.querySelectorAll('input[name="interest"]:checked')).map(item => item.value);
+  var comments = document.getElementById("comments").value;
+
+  // Store data in local storage
+  localStorage.setItem("fullName", fullName);
+  localStorage.setItem("email", email);
+  localStorage.setItem("gender", gender);
+  localStorage.setItem("interests", JSON.stringify(interests));
+  localStorage.setItem("comments", comments);
+
+  // Display a confirmation message or perform additional actions if needed
+  alert("Form submitted successfully!");
+}
 
 // function for asking user for name
 function promptForName() {

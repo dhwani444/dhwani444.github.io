@@ -11,29 +11,105 @@
 
     <section id="form-section">
         <form id="myForm">
-            <label for="fullName">Full Name:</label>
+            <label for="fullName"><strong>Full Name:</strong></label>
             <input type="text" id="fullName" name="fullName" required>
 
-            <label for="email">Email:</label>
+            <label for="email"><strong>Email:</strong></label>
             <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label><strong>Gender:</strong></label>
+            <select name="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Non-Binary">Non-Binary</option>
+            <option value="Other">Other</option>
+            </select>
+            
+            <label><strong>Age:</strong></label>
+            <label for= "Under 18" class="container">
+                <input type="radio" id="Under 18" name="Age" value="Under 18">
+                Under 18
+            </label>
 
-            <label>Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
+            <label for= "18 - 24" class="container">
+                <input type="radio" id="18 - 24" name="Age" value="18 - 24">
+                18 - 24
+            </label>
 
-            <label>Interests:</label>
-            <input type="checkbox" id="programming" name="interest" value="programming">
-            <label for="programming">Programming</label>
-            <input type="checkbox" id="design" name="interest" value="design">
-            <label for="design">Design</label>
+            <label for= "25 - 34" class="container">
+                <input type="radio" id="25 - 34" name="Age" value="25 - 34">
+                25 - 34
+            </label>
 
-            <label for="comments">Comments:</label>
+            <label for= "45 - 54" class="container">
+                <input type="radio" id="45 - 54" name="Age" value="45 - 54">
+                45 - 54
+            </label>
+
+            <label for= "55 - 64" class="container">
+                <input type="radio" id="55 - 64" name="Age" value="55 - 64">
+                55 - 64
+            </label>
+            
+            <label for= "Over 65" class="container">
+                <input type="radio" id="Over 65" name="Age" value="Over 65">
+                Over 65
+            </label>
+
+            <br>
+            
+            <label><strong>What activities do you engage in online?</strong></label>
+
+            <label for="Online Shopping" class="container">
+                <input type="checkbox" id="Online Shopping" name="interest" value="Online Shopping">
+                Online Shopping
+            </label>
+            
+            <label for="TV/Movie Streaming" class="container">
+                <input type="checkbox" id="TV/Movie Streaming" name="interest" value="TV/Movie Streaming">
+                TV/Movie Streaming
+            </label>
+            
+            <label for="Gaming" class="container">
+                <input type="checkbox" id="Gaming" name="interest" value="Gaming">
+                Gaming
+            </label>
+           
+            <label for="News" class="container">
+                <input type="checkbox" id="News" name="interest" value="News">
+                News
+            </label>
+
+            <label for="Health Tracking" class="container">
+                <input type="checkbox" id="Health Tracking" name="interest" value="Health Tracking">
+                Health Tracking
+            </label>
+
+            <label for="Professional Networking" class="container">
+                <input type="checkbox" id="Professional Networking" name="interest" value="Professional Networking">
+                Professional Networking
+            </label>
+            
+            <br>
+            
+            <label><strong>How much time do you spend on a personal website when provided?</strong></label>
+            
+            <input list="time on website" name="time on website">
+            <datalist id="time on website">
+                <option value="30 seconds or less">
+                <option value="30 seconds - 1 minute">
+                <option value="1 minute - 5 minutes">
+                <option value="5 minutes - 10 minutes">
+                <option value="Over 10 minutes">
+            </datalist>
+
+            <label for="comments"><strong>Comments:</strong></label>
             <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
 
+            
+
             <button type="submit" onclick="submitForm()">Submit</button>
-             <button type="button" onclick="clearForm()">Clear</button>
+            <button type="button" onclick="clearForm()">Clear</button>
         </form>
     </section>
 
