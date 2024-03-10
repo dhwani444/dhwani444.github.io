@@ -9,14 +9,19 @@
         <h1>Dhwani Vaishnav</h1>
     </header>
 
+    <!--form elements-->
     <section id="form-section">
         <form id="myForm">
+
+            <!--asking user for full name-->
             <label for="fullName"><strong>Full Name:</strong></label>
             <input type="text" id="fullName" name="fullName" required>
 
+            <!--asking user for email-->
             <label for="email"><strong>Email:</strong></label>
             <input type="email" id="email" name="email" placeholder="Enter your email" required>
             
+            <!--asking user for gender-->
             <label><strong>Gender:</strong></label>
             <select name="gender">
             <option value="Female">Female</option>
@@ -25,9 +30,11 @@
             <option value="Other">Other</option>
             </select>
 
+            <!--asking user for their DOB-->
             <label><strong>DOB:</strong></label>
             <input type="date" name="birthdate">
             
+            <!--asking user for their age-->
             <label><strong>Age:</strong></label>
             <label for= "Under 18" class="container">
                 <input type="radio" id="Under 18" name="Age" value="Under 18">
@@ -60,6 +67,8 @@
             </label>
 
             <br>
+            
+            <!--asking user for what they do online-->
             
             <label><strong>What activities do you engage in online?</strong></label>
 
@@ -95,6 +104,8 @@
             
             <br>
             
+            <!--asking user how much time they spend on a personal website-->
+            
             <label><strong>How much time do you spend on a personal website when provided?</strong></label>
             
             <input list="time on website" name="time on website">
@@ -105,9 +116,13 @@
                 <option value="5 minutes - 10 minutes">
                 <option value="Over 10 minutes">
             </datalist>
+            
+            <!--Textarea for users to enter comments -->
 
             <label for="comments"><strong>Comments:</strong></label>
             <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+            
+            <!--buttons for submission and clearing answers-->
 
             <button type="submit" onclick="submitForm()">Submit</button>
             <button type="button" onclick="clearForm()">Clear</button>
