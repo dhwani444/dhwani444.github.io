@@ -17,6 +17,8 @@ function submitForm() {
   alert("Form submitted successfully!");
 }
 
+
+
 // function for asking user for name
 function promptForName() {
   var userName = prompt("Please enter your name:");
