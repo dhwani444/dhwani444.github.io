@@ -9,6 +9,35 @@
         <h1>Dhwani Vaishnav</h1>
     </header>
 
+    <section id="form-section">
+        <form id="myForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <label>Interests:</label>
+            <input type="checkbox" id="programming" name="interest" value="programming">
+            <label for="programming">Programming</label>
+            <input type="checkbox" id="design" name="interest" value="design">
+            <label for="design">Design</label>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+
+            <button type="submit" onclick="submitForm()">Submit</button>
+             <button type="button" onclick="clearForm()">Clear</button>
+        </form>
+    </section>
+
+
     <section>
 
         <div id="output" class="nameAcknowledgement"></div>
@@ -103,33 +132,6 @@
 
 
 
-    <section id="form-section">
-        <form id="myForm">
-            <label for="fullName">Full Name:</label>
-            <input type="text" id="fullName" name="fullName" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label>Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-
-            <label>Interests:</label>
-            <input type="checkbox" id="programming" name="interest" value="programming">
-            <label for="programming">Programming</label>
-            <input type="checkbox" id="design" name="interest" value="design">
-            <label for="design">Design</label>
-
-            <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
-
-            <button type="submit" onclick="submitForm()">Submit</button>
-             <button type="button" onclick="clearForm()">Clear</button>
-        </form>
-    </section>
 
     
     <script src="main.js"></script>
