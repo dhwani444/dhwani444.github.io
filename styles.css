@@ -109,6 +109,12 @@ textarea {
     box-sizing: border-box;
 }
 
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px; 
+}
+
 button {
     background-color: #4caf50;
     color: white;
@@ -121,3 +127,4 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
