@@ -76,33 +76,33 @@ body {
 }
 
 h1 {
-    font-size: 24pt;
+    font-size: 2em;
     color: blue; 
 }
 
 h2 {
-    font-size: 20pt;
+    font-size: 1.67em;
     color: green; 
 }
 
 h3 {
-    font-size: 18pt;
+    font-size: 1.5em;
     color: red;
 }
 
 ol {
-    font-size: 14pt;
+    font-size: 1em;
     color: white;
 }
 
 ul {
-    font-size: 14pt;
+    font-size: 1em;
     color: white;
     padding: 0;
 }
 
 p {
-    font-size: 14pt;
+    font-size: 1em;
     color: white; 
 }
 

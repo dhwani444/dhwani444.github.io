@@ -54,6 +54,23 @@ function createNavigationMenu() {
   }
 }
 
+$(document).ready(function() {
+  $('#increaseFontSize').on('click', function() {
+      changeFontSize(5);
+  });
+
+  $('#decreaseFontSize').on('click', function() {
+      changeFontSize(-5);
+  });
+});
+
+function changeFontSize(changeAmount) {
+  var currentFontSize = parseInt($('body').css('font-size'));
+  var newFontSize = currentFontSize + changeAmount;
+  $('body').css('font-size', newFontSize + 'px');
+}
+
+
 // adding event listeners to execute asking for name and image size functions
 document.getElementById("nameButton").addEventListener("click", promptForName);
 document.getElementById("myImage").addEventListener("click", toggleImageSize);
