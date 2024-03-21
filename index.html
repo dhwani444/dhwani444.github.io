@@ -12,6 +12,15 @@
         <h1>Dhwani Vaishnav</h1>
     </header>
 
+    <!--Font Resize Accessibility Feature:
+    this feature allows folks with visual impairments to increase or decrease
+    the size of text on my personal website, using the buttons provided. These change
+    the font size of not only my website, but also components on my website such as forms.
+    The font sizes increase consistently with their element tags. For example, text with 
+    an h1 tag increases at a faster pace than text with an ol tag, as they vary in size.
+    Lastly, the buttons for resizing font are located on the left side of my website, to ensure
+    that folks with low vision are able to see the buttons, as quite commonly those with 
+    low vision have trouble with seeing the right side of a screen.-->
     <section id="font-section">
         <p>Text Resize</p>
         <button id="increaseFontSize">↑</button>
@@ -143,6 +152,14 @@
 
         <div id="output" class="nameAcknowledgement"></div>
         <button id="nameButton">Enter Your Name</button><br><br>
+        <!--Alternative Text for Image:
+        Adding alternative text for an image helps folks who are visually impaired
+        or blind in understanding images on a website. In this case, I have added a
+        photo of myself on my website, and to ensure that folks with visual impairments
+        still get to experience it, have added a detailed description. using the 'alt'
+        feature in HTML. In creating an alt tag, it should be as detailed as possible, 
+        even including the so-called mundane details to create a full picture. In this
+        case, details about my wardrobe and the background were added.-->
         <img id="myImage" src="Dhwani.jpg" alt="Picture of Dhwani standing in front 
         of a rock strucure, smiling at the camera with her hands on her head. 
         Dhwani is wearing a brown zip up and black baseball cap. Image is taken on 
@@ -235,6 +252,16 @@
     </section>
 
     <script src="main.js"></script>
+
+    <!--On-Screen Keyboard Feature: 
+    This feature allows users to use the on-screen keyboard on my website,
+    specifically to enter input into my form. Users are able to preview their
+    answers in a text form, then press 'Accept' on the on-screen keyboard to input 
+    it into the text box. On-screen keyboards are for folks who use switches 
+    or pointing devices, and are unable to physically type on a keyboard. My keyboard
+    is a QWERTY keyboard to ensure it is familiar to most users, as over 70% of users
+    use this keyboard. The keyboard also has numeric and punctuation features, as users
+    may require this for the 'Comments' section of the form. -->
     <script>
         $(document).ready(function() {
         $('input[type="text"], input[type="email"], textarea').keyboard();
